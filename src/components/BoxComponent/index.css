@@ -1,0 +1,16 @@
+.name-container {
+  background-color: #fddddb;
+  height: 20vh;
+  width: 20vw;
+  border-radius: 8px;
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 577px) {
+  .name-container {
+    margin: 0 auto;
+  }
+}
